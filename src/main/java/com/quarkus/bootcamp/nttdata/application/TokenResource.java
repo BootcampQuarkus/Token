@@ -9,7 +9,7 @@ import jakarta.ws.rs.*;
 
 import java.util.List;
 
-@Path("/increments")
+@Path("/token")
 public class TokenResource {
   @Inject
   TokenService service;
